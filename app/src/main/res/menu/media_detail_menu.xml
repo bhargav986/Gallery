@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/rotate"
+        android:title="@string/rotate"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/rotateRight"
+                android:title="@string/rotateRight" />
+            <item
+                android:id="@+id/rotateLeft"
+                android:title="@string/rotateLeft" />
+            <item
+                android:id="@+id/rotate180"
+                android:title="@string/rotate180" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/setAs"
+        android:title="@string/setas"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rename"
+        android:title="@string/rename"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hide"
+        android:title="@string/hide"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/unhide"
+        android:title="@string/unhide"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/copy"
+        android:title="@string/copy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/move"
+        android:title="@string/move"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/openWith"
+        android:title="@string/openWith"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/createShortcut"
+        android:title="@string/createShortcut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/properties"
+        android:title="@string/properties"
+        app:showAsAction="never" />
+</menu>

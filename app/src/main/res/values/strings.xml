@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Gallery</string>
+
+<!--    for Folders-->
+    <string name="folder_image">Folder Image</string>
+
+<!--    activity_main.xml-->
+    <string name="Gallery_text">Gallery</string>
+
+<!--    activity_folder_detail.xml-->
+    <string name="folderNameTxt">Folder Name</string>
+
+<!--    main_menu.xml-->
+    <string name="newFolderTxt">New Folder</string>
+    <string name="settingsTxt">Settings</string>
+    <string name="trashTxt">Trash</string>
+    <string name="favouriteTxt">Favourite</string>
+    
+<!--    media_detail_menu.xml-->
+    <string name="rotate">Rotate</string>
+    <string name="setas">Set as</string>
+    <string name="rename">Rename</string>
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
+    <string name="copy">Copy</string>
+    <string name="move">Move</string>
+    <string name="openWith">Open With</string>
+    <string name="createShortcut">Create Shortcut</string>
+    <string name="properties">Properties</string>
+    
+<!--    rotate in menu-->
+    <string name="rotateRight">Rotate right</string>
+    <string name="rotateLeft">Rotate Left</string>
+    <string name="rotate180">Rotate 180°</string>
+
+</resources>

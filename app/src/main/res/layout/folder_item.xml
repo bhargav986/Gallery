@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/folderImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/folder_image"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/folderNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+

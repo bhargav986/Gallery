@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/newFolder"
+        android:title="@string/newFolderTxt"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settingsTxt"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/trash"
+        android:title="@string/trashTxt"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favourite"
+        android:title="@string/favouriteTxt"
+        app:showAsAction="never" />
+
+</menu>
